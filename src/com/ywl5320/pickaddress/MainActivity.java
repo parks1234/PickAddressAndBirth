@@ -1,4 +1,4 @@
-package com.ywl5320.pickaddress;
+﻿package com.ywl5320.pickaddress;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		mBirth = (TextView) findViewById(R.id.tv_birth);
 		mAddress = (TextView) findViewById(R.id.tv_address);
+
 
 		mBirth.setOnClickListener(new OnClickListener() {
 
